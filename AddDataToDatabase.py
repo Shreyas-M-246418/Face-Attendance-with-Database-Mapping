@@ -3,7 +3,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred,{'databaseURL': 'https://attendance-a88bc-default-rtdb.firebaseio.com/'})
+firebase_admin.initialize_app(cred,{'databaseURL': url'})
 
 ref=db.reference('attendance')
 
